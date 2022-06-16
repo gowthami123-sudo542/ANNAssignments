@@ -1,9 +1,9 @@
-## This Notebook is Regrading FashionMNIST data by Using ANN and MLFlow
+## This Notebook is Regrading Fashionmnist data by Using ANN and MLFlow
 [Dataset link](https://www.kaggle.com/datasets/zalando-research/fashionmnist)
 #### Note:In Tensorflow library we have BuiltIn dataset for fashionmnist
 ## What is MLFLow?
 * It is a open source platform for machine learning lifecycle.
-[MLflow documnetation](https://www.mlflow.org/docs/latest/index.html)
+### [MLflow documnetation](https://www.mlflow.org/docs/latest/index.html)
 ## Dataset Information:
 
 * Dataset consists of 700000 rows and (28*28==784) columns
@@ -27,7 +27,29 @@
 
 ## OBSERVATIONS
 
-1)
+1)With Applying BatchNormalization and Dropout
+  * Activation Function=**Relu**(For Hidden layers)
+  * Activation Function=**Softmax**(For Target Class)
+  * LOSS_FUNCTION=**sparse_categorical_crossentropy**
+  * OPTIMIZER=**RMSProp**
+  * METRICS=**accuracy**
+  * Accuracy=0.961
+  
+2) Applying BatchNormalization
+  * Activation Function=**Relu**(For Hidden layers)
+  * Activation Function=**Softmax**(For Target Class)
+  * LOSS_FUNCTION=**sparse_categorical_crossentropy**
+  * OPTIMIZER=**RMSProp**
+  * METRICS=**accuracy**
+  * Accuracy=0.989
 
+3) By Using DropOut
+  * Activation Function=**Relu**(For Hidden layers)
+  * Activation Function=**Softmax**(For Target Class)
+  * LOSS_FUNCTION=**sparse_categorical_crossentropy**
+  * OPTIMIZER=**RMSProp**
+  * METRICS=**accuracy**
+  * Accuracy=0.841
 
+**![Parallel Coordinate Graph]()
 
