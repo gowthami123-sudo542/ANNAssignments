@@ -27,7 +27,7 @@
 
 ## OBSERVATIONS
 
-1)With Applying BatchNormalization and Dropout
+1)Without Applying BatchNormalization and Dropout
   * Activation Function=**Relu**(For Hidden layers)
   * Activation Function=**Softmax**(For Target Class)
   * LOSS_FUNCTION=**sparse_categorical_crossentropy**
