@@ -51,5 +51,7 @@
   * METRICS=**accuracy**
   * Accuracy=0.841
 
-![Parallel Coordinate Graph](MLFLOW/Comparsion.JPG)
+
+![image](https://user-images.githubusercontent.com/67852967/174139460-74073046-7ef2-476b-94f4-55a13afc34e5.png)
+
 
